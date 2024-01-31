@@ -1,0 +1,42 @@
+.darkmode {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+.darkmode > .toggle {
+  display: none;
+  box-sizing: border-box;
+}
+.darkmode svg {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: calc(50% - 10px);
+  fill: var(--darkgray);
+  transition: opacity 0.1s ease;
+}
+
+:root[saved-theme=dark] {
+  color-scheme: dark;
+}
+
+:root[saved-theme=light] {
+  color-scheme: light;
+}
+
+:root[saved-theme=dark] .toggle ~ label > #dayIcon {
+  opacity: 0;
+}
+:root[saved-theme=dark] .toggle ~ label > #nightIcon {
+  opacity: 1;
+}
+
+:root .toggle ~ label > #dayIcon {
+  opacity: 1;
+}
+:root .toggle ~ label > #nightIcon {
+  opacity: 0;
+}/*# sourceMappingURL=darkmode.css.map */
