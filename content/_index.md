@@ -1,6 +1,8 @@
 ---
 title: Welcome to my space.
 ---
+THIS IS THE SYNC CHANGEs
+
 Here I collect and publish things that I create or really enjoy. [[This is a link to an image]]
 
 see if this is visible in passive state [[This is a link to excalidraw]] Here is one more inline link 
