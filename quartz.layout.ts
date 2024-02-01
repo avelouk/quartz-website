@@ -55,11 +55,13 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   afterBody: [],
   left: [
-    Component.PageTitle(),
+    Component.HeaderImage(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      filterFn: (f) => !f.name.startsWith("_Excalidraw"),
+    })),
   ],
   right: [],
 }
