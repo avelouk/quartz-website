@@ -1,3 +1,6 @@
+.graph {
+  width: 50%;
+}
 .graph > h3 {
   font-size: 1rem;
   margin: 0;

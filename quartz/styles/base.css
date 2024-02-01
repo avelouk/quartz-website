@@ -216,14 +216,10 @@ a {
   transition: color 0.2s ease;
   color: var(--secondary);
 }
-a:hover {
-  color: var(--tertiary) !important;
-}
 a.internal {
   text-decoration: none;
-  background-color: var(--highlight);
   padding: 0 0.1rem;
-  border-radius: 5px;
+  border-radius: 0px;
   line-height: 1.4rem;
 }
 a.internal:has(> img) {
@@ -299,7 +295,7 @@ a.external .external-icon > path {
   gap: 2rem;
   top: 0;
   width: 380px;
-  margin-top: 6rem;
+  margin-top: 2rem;
   box-sizing: border-box;
   padding: 0 4rem;
   position: fixed;
@@ -334,13 +330,21 @@ a.external .external-icon > path {
 }
 .page .page-header {
   width: 750px;
-  margin: 6rem auto 0 auto;
+  margin: 2rem auto 0 auto;
 }
 @media all and (max-width: 1510px) {
   .page .page-header {
     width: initial;
     margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
+}
+.page .after-body {
+  width: 750px;
+  margin: 2rem auto 0 auto;
+  display: inline-flex;
+  flex-direction: row;
 }
 .page .center, .page footer {
   margin-left: auto;

@@ -216,14 +216,10 @@ a {
   transition: color 0.2s ease;
   color: var(--secondary);
 }
-a:hover {
-  color: var(--tertiary) !important;
-}
 a.internal {
   text-decoration: none;
-  background-color: var(--highlight);
   padding: 0 0.1rem;
-  border-radius: 5px;
+  border-radius: 0px;
   line-height: 1.4rem;
 }
 a.internal:has(> img) {
@@ -340,6 +336,8 @@ a.external .external-icon > path {
   .page .page-header {
     width: initial;
     margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 .page .center, .page footer {
@@ -655,4 +653,57 @@ ol.overflow:after {
 
 .transclude ul {
   padding-left: 1rem;
+}
+
+a:not(.unstyled) {
+  color: var(--secondary);
+  position: relative;
+  text-decoration: none;
+}
+a:not(.unstyled):before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+a:not(.unstyled):hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+a:not(.unstyled):before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: var(--highlight);
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+a.unstyled {
+  text-decoration: none;
+}
+
+@font-face {
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2") format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+  font-weight: normal;
+}
+main.neon-title {
+  transition: all 0.5s;
+  -webkit-text-stroke: 2px var(--darkgray);
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 5rem;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  text-shadow: 5px 5px 0px #07bccc, 8px 8px 0px #e601c0, 11px 11px 0px #e9019a, 14px 14px 0px #f40468, 25px 25px 5px #482896;
+  cursor: pointer;
+}
+main.neon-title:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
 }/*# sourceMappingURL=custom.css.map */

@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Karen",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -14,30 +14,30 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Ubuntu",
+        body: "Inter",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#fffefa",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
+          darkgray: "#0e0c01",
           dark: "#2b2b2b",
           secondary: "#284b63",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "#69ec86ba",
         },
         darkMode: {
-          light: "#161618",
+          light: "#050400",
           lightgray: "#393639",
           gray: "#646464",
-          darkgray: "#d4d4d4",
+          darkgray: "#fefcf1",
           dark: "#ebebec",
-          secondary: "#7b97aa",
+          secondary: "#92b9d3",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "#69ec8642",
         },
       },
     },
