@@ -295,7 +295,7 @@ a.external .external-icon > path {
   gap: 2rem;
   top: 0;
   width: 380px;
-  margin-top: 6rem;
+  margin-top: 2rem;
   box-sizing: border-box;
   padding: 0 4rem;
   position: fixed;
@@ -330,7 +330,7 @@ a.external .external-icon > path {
 }
 .page .page-header {
   width: 750px;
-  margin: 6rem auto 0 auto;
+  margin: 2rem auto 0 auto;
 }
 @media all and (max-width: 1510px) {
   .page .page-header {
@@ -340,13 +340,32 @@ a.external .external-icon > path {
     margin-right: 2rem;
   }
 }
-.page .center, .page footer {
+.page .after-body {
+  width: 750px;
+  margin: 2rem auto 0 auto;
+  display: inline-flex;
+  flex-direction: row;
+}
+.page .center {
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   width: 750px;
 }
 @media all and (max-width: 1510px) {
-  .page .center, .page footer {
+  .page .center {
+    width: initial;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.page footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+@media all and (max-width: 1510px) {
+  .page footer {
     width: initial;
     margin-left: 0;
     margin-right: 0;
