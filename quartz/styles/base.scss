@@ -195,7 +195,17 @@ a {
     flex-direction:row;
   }
 
-  & .center,
+  & .center {
+    margin-top: $topSpacing;
+    margin-left: auto;
+    margin-right: auto;
+    width: $pageWidth;
+    @media all and (max-width: $fullPageWidth) {
+      width: initial;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
   & footer {
     margin-left: auto;
     margin-right: auto;

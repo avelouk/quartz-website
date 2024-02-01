@@ -346,13 +346,26 @@ a.external .external-icon > path {
   display: inline-flex;
   flex-direction: row;
 }
-.page .center, .page footer {
+.page .center {
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   width: 750px;
 }
 @media all and (max-width: 1510px) {
-  .page .center, .page footer {
+  .page .center {
+    width: initial;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.page footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+@media all and (max-width: 1510px) {
+  .page footer {
     width: initial;
     margin-left: 0;
     margin-right: 0;
