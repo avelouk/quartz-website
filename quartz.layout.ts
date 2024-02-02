@@ -33,12 +33,11 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.HeaderImage(),
+    // Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
-    // Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    // Component.Search(),
     Component.DesktopOnly(Component.Explorer({
       filterFn: (f) => !f.name.startsWith("_Excalidraw"),
     })),
