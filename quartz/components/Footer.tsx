@@ -13,6 +13,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
+        <iframe src="https://avelouk.substack.com/embed" width="100%" height="320" style="border:1px solid #e5e5e5; background:white;" frameborder="0" scrolling="no"></iframe>
         <p>
           Created using <a href="https://quartz.jzhao.xyz/" target="_blank">Quartz v{version}</a>, © {year}
         </p>
