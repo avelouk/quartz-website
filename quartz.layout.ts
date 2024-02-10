@@ -32,8 +32,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.TableOfContents())
   ],
   left: [
-    Component.HeaderImage(),
-    // Component.PageTitle(),
+    Component.DesktopOnly(Component.HeaderImage()),
+    Component.MobileOnly(Component.PageTitle()),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
