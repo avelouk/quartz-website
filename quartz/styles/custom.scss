@@ -48,15 +48,15 @@ a.unstyled {
       transition: all 0.5s;
       -webkit-text-stroke: 2px #fefcf1;
       font-variation-settings: "wght" 900, "ital" 1;
-      font-size: 5rem;
+      font-size: 4rem;
       text-align: center;
       color: transparent;
       font-family: "Meta", sans-serif;
-      text-shadow: 5px 5px 0px #07bccc,
-        8px 8px 0px #e601c0,
-        11px 11px 0px #e9019a,
-        14px 14px 0px #f40468,
-        25px 25px 5px #482896;
+      text-shadow: 4px 4px 0px #07bccc,
+        7px 7px 0px #e601c0,
+        10px 10px 0px #e9019a,
+        13px 13px 0px #f40468,
+        20px 20px 4px #482896;
       cursor: pointer;
   
       &:hover {
@@ -68,9 +68,9 @@ a.unstyled {
   
   [saved-theme="light"] {
     main.neon-title {
-      font-size: 5rem;
+      font-size: 4rem;
       transition: all 0.5s;
-      -webkit-text-stroke: 3px var(--secondary);
+      -webkit-text-stroke: 2px var(--secondary);
       color: transparent;
       font-variation-settings: "wght" 900, "ital" 1;
       position: relative;

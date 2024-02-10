@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Garen",
+    pageTitle: "Avelouk",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Ubuntu",
+        header: "Inter",
         body: "Inter",
         code: "IBM Plex Mono",
       },
@@ -25,7 +25,7 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#0e0c01",
           dark: "#2b2b2b",
-          secondary: "#284b63",
+          secondary: "#004575",
           tertiary: "#84a59d",
           highlight: "#69ec86ba",
         },
