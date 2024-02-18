@@ -43,7 +43,8 @@ TL;DR
 6. **MVP:** Determine the shortest path to delivering your value proposition.
 7. **Success Metrics:** Establish clear criteria for success before launch.
 
-Let's apply these steps to "Paper minis" and see where it takes us. [[Concept - Paper minis]]
+Let's apply these steps to "Paper minis" and see where it takes us. 
+>[[Concept - Paper minis]] is currently in progress
 
 ## The MVP
 
