@@ -5,10 +5,10 @@ Hello and welcome to my corner of the internet! I am a Software Engineer who dec
 
 Here I build products alone, document the process and share successes, failures, and learnings. 
 
-## Current project - [[Paper minis]]
-To follow my solo entrepreneurship journey and watch me fail in real time subscribe to my newsletter.
+## Current project 
+[[Paper minis]] -  A library and a tool to create great looking paper miniatures for DnD and other tabletop RPGs. 
+Status - 60% ready to release to first users
 
-        <iframe src="https://avelouk.substack.com/embed" width="480" height="320" style="border:1px solid #e5e5e5; background:white;" frameborder="0" scrolling="no"></iframe>
 
 ## What else can you find here?
 

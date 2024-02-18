@@ -40,10 +40,10 @@ A guy who is a game master and often uses paper miniatures in his game prep. Or 
 ## Competition
 
 #### Direct
-- Big bois: (>$1000/month)
+- Big bois: ($1000+/month)
 	- https://www.patreon.com/paperforge
 	- https://printableheroes.com/
-- Smol bois: ($10 - $1000/month)
+- Smol bois: (10 - 1000/month)
 	- https://airtable.com/appm2Ljw3HyOUJHu1/shr2f2IFzlxIr8P6L/tbl8jsJIYs5jfCssz
 #### Indirect
 - Physical products:
