@@ -1,7 +1,7 @@
 ---
 title: Website of Karen Galstyan
 ---
-Hello and welcome to my corner of the internet! I am a software engineer who decided to become a product manager for some reason. I love technology and I believe that great tech should feel like magic. My goal is to use tech to it's full potential and have it bring convenience and delight to our daily lives.
+Hello and welcome to my corner of the internet! I am a Software Engineer who decided to become a Product Manager for some reason. I love technology and I believe that great tech should feel like magic. My goal is to use tech to it's full potential and have it bring convenience and delight to our daily lives.
 
 Here I build products alone, document the process and share successes, failures, and learnings. 
 
@@ -12,7 +12,7 @@ To follow my solo entrepreneurship journey and watch me fail in real time subscr
 
 ## What else can you find here?
 
-- [[Great free products]] that I use in work and life
+- [[Greatest free products]] that I use in work and life
 - [[Case studies]]
 - [[Project archive]] - where #done projects live
 - [My resume](assets/Karen_Galstyan_resume.pdf)

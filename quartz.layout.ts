@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      YouTube: "",
+      // YouTube: "",
       GitHub: "https://github.com/avelouk",
       "Printable Minis GPT": "https://chat.openai.com/g/g-ZwDQv0FEg-printable-minis",
     },
@@ -28,8 +28,8 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.Backlinks(),
-    Component.Graph(),
-    Component.MobileOnly(Component.TableOfContents())
+    Component.DesktopOnly(Component.Graph()),
+    // Component.MobileOnly(Component.TableOfContents())s
   ],
   left: [
     Component.DesktopOnly(Component.HeaderImage()),
