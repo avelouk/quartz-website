@@ -6,9 +6,9 @@ Hello and welcome to my corner of the internet! I am a Software Engineer who dec
 Here I build products alone, document the process and share successes, failures, and learnings. 
 
 ## Current project 
-[[Paper minis]] -  A library and a tool to create great looking paper miniatures for DnD and other tabletop RPGs. 
-Status - 60% ready to release to first users
-
+### [[Paper minis]] 
+A library and a tool to create great looking paper miniatures for DnD and other tabletop RPGs. 
+>**Status** - 60% ready to release to first users
 
 ## What else can you find here?
 
