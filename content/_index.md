@@ -7,7 +7,7 @@ Here I build stuff, document the process and share successes, failures, and lear
 
 ## Latest project 
 
-### [[App that makes a Slack notification sound at random intervals]]
+- [[App that makes a Slack notification sound at random intervals]]
 
 ## What else can you find here?
 

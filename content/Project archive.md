@@ -1,2 +1,5 @@
+### Done
+- [[App that makes a Slack notification sound at random intervals]]
 
-There are no done projects yet ┌( ಠ_ಠ)┘. Follow [[Paper minis]] to it's success or demise.
+### Pile of half finished stuff
+- [[Paper minis]] 
