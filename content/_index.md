@@ -3,12 +3,11 @@ title: Website of Karen Galstyan
 ---
 Hello and welcome to my corner of the internet! I am a Software Engineer who decided to become a Product Manager for some reason. I love technology and I believe that great tech should feel like magic. My goal is to use tech to it's full potential and have it bring convenience and delight to our daily lives.
 
-Here I build products alone, document the process and share successes, failures, and learnings. 
+Here I build stuff, document the process and share successes, failures, and learnings. 
 
-## Current project 
-### [[Paper minis]] 
-A library and a tool to create great looking paper miniatures for DnD and other tabletop RPGs. 
->**Status** - 60% ready to release to first users
+## Latest project 
+
+### [[App that makes a Slack notification sound at random intervals]]
 
 ## What else can you find here?
 
