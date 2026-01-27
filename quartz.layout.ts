@@ -12,8 +12,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       // YouTube: "",
-      GitHub: "https://github.com/avelouk",
-      "Printable Minis GPT": "https://chat.openai.com/g/g-ZwDQv0FEg-printable-minis",
+      // GitHub: "https://github.com/avelouk"
     },
   }),
 }
