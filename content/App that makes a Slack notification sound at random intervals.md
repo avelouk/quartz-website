@@ -1,3 +1,10 @@
+---
+title: App that makes a Slack notification sound at random intervals
+tags:
+  - project
+  - done
+---
+
 Using AI to write code in recent years has been quite a satisfying experience. While most of the code I wrote for work has been related to boring data analysis, some rudimentary lambda functions, or automating boring tasks (thank god for the Apps script in Google Sheets), I have been using different programming languages and tech stacks without specialized knowledge. I know the most important concepts from my years as an Android developer, and AI takes care of the rest. 
 
 Anyway, for Halloween, I am going to be dressed as a late-night Slack notification, and I need my costume to make this sound at random points. I didn't find an easy way to do this, so it's time to vibe code a quick solution. I'll start a stopwatch and see how long it takes to build this app from scratch using Cursor. 

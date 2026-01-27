@@ -2,8 +2,9 @@
 title: Paper Minis
 tags:
   - project
+  - dead
+  - done
 ---
-
 
 A library and a tool to create great looking paper miniatures for DnD and other tabletop RPGs. 
 
@@ -44,9 +45,43 @@ TL;DR
 7. **Success Metrics:** Establish clear criteria for success before launch.
 
 Let's apply these steps to "Paper minis" and see where it takes us. 
->[[Concept - Paper minis]] is currently in progress
+And here is the result
+>[[Concept - Paper minis]] 
 
-## The MVP
+## Death
 
-Coming soon ┌( ಠ_ಠ)┘
+The project is dead. 
+Given the strong existing competition and the advancement of AI image generators, this process becomes really simple, and there is little value I can provide beyond some prompts and a Photoshop template. 
+
+I still use these in my games, and it is a quick and easy way to improve the DnD experience. 
+
+Here is an example prompt for the free version of Gemini (At least as of January 2026):
+```
+Create a full-body, print-ready image of a bald Goliath barbarian:
+
+Single character, standing pose
+Muscular Goliath build, bald head
+Barbarian attire (fur, leather, simple weapons)
+Colorful 2D flat style, moderate-to-low detail
+Bold outline for easy cutting
+Portrait orientation on a solid white background
+```
+
+Here is the result:
+
+![[Gemini_Generated_Image_bdpmlabdpmlabdpm.png|300]]
+Pro tip - you can change poses for the same character with a simple prompt:
+```
+make another one with a fighting pose
+```
+
+Result:
+
+![[Gemini_Generated_Image_pcvg65pcvg65pcvg.png|300]]
+
+Upload it to https://papermini.arkanatools.com/ to generate a simple printable PDF. Or make it yourself if you are feeling fancy. 
+
+Have fun and support other creators, as they often have much better art:	
+- https://www.patreon.com/paperforge
+- https://printableheroes.com/
 

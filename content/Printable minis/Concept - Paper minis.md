@@ -2,6 +2,7 @@
 tags:
   - concept
   - todo
+title: Concept - Paper minis
 ---
 ## High level goals
 
@@ -61,7 +62,7 @@ Physical ones and some digital ones are direct purchase.
 
 ## Acquisition channel
 
-#todo these are rough ideas
+These are rough ideas
 
 Main channel: Social media
 - Create tutorial on how to make them on youtube
@@ -74,7 +75,7 @@ Main channel: Social media
 	- Maybe try posting a mini collection or a tutorial? ask mods first
 ## MVP
 
-#todo this is a rough outline of the potential product
+This is a rough outline of the potential product
 
 - Custom GPT: https://chat.openai.com/g/g-ZwDQv0FEg-printable-minis
 - Pipeline from GPT image to print ready miniature and VTT token
@@ -84,4 +85,4 @@ Main channel: Social media
 
 ## Metrics
 
-#todo 
+TBD

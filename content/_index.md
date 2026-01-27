@@ -7,13 +7,12 @@ Here I build stuff, document the process and share successes, failures, and lear
 
 ## Latest project 
 
-- [[App that makes a Slack notification sound at random intervals]]
+>[[App that makes a Slack notification sound at random intervals]]
 
 ## What else can you find here?
-
-- [[Greatest free products]] that I use in work and life
+- [[Project archive]] 
+- [[Greatest free tech]] that I use in work and life
 - [[Case studies]]
-- [[Project archive]] - where #done projects live
 - [My resume](assets/Karen_Galstyan_resume.pdf)
 
 #### Find me on

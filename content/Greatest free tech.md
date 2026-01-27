@@ -8,6 +8,6 @@ For choosing and testing color and font combinations
 For screen recording and streaming
 
 ### [SyncThing](https://syncthing.net/)
-For easily syncing folders across devices. Can also be used to sync Obsidian on your smarthphone.
+For easily syncing folders across devices. Can also be used to sync Obsidian on your smartphone.
 
 
