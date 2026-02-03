@@ -16,7 +16,7 @@ Spoiler alert: it did!
 ## The prototype
 Long story short - after some tinkering with a [custom GPT](https://chat.openai.com/g/g-ZwDQv0FEg-printable-minis), some editing and arts and crafts -here's what I got for the first session.
 
-![[PXL_20231125_001224064.jpg]]
+![[paper_minis_example.jpg]]
 
 There is definitely a lot to improve but the one shot went great and I definitely enjoyed the hell out of the process. Shoutout to Caleb Hutchins for the awesome [one shot about the iron golem](https://docs.google.com/document/d/165IcREKDpnx4dtxhgXRxlFaFOirtJqEWz52W-TmVeQ0/edit) (the most fun NPC to run).
 

@@ -7,8 +7,7 @@ Here I build stuff, document the process and share successes, failures, and lear
 
 ## Latest project 
 
->[[App that makes a Slack notification sound at random intervals]]
-
+>[[Net worth tracker]]
 ## What else can you find here?
 - [[Project archive]] 
 - [[Greatest free tech]] that I use in work and life
