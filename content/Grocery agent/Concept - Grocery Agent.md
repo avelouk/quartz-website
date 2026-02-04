@@ -1,8 +1,8 @@
 ---
-title: Grocery Bot
+title: Concept - Grocery Agent
 tags:
-  - project
-draft: "true"
+  - concept
+  - done
 ---
 ## High level goals
 
@@ -12,6 +12,7 @@ draft: "true"
 
 My wife and I!
 Easiest user base ever. We can literally read their minds.
+Given that it's for personal use, some sections of the concept will be skipped.
 
 ## Problems to solve
 
@@ -29,7 +30,7 @@ A bot that goes to jumbo.cl (the supermarket we use). Logs in and adds all neces
 
 The MVP will only solve problems 1, 2, 3 and will be constrained to ingredients for cooking.
 
-**Requirements:** 
+### Requirements: 
 - I want to give **as little input as possible** to avoid spending more than 5 minutes a week on ordering groceries.
 - **Inputs:**
 	- Things we want to cook during the week - recipe links or names of the dishes
@@ -39,7 +40,7 @@ The MVP will only solve problems 1, 2, 3 and will be constrained to ingredients 
 - **Output:**
 	- Appropriate items added to cart in jumbo.cl 
 
-**User flow:**
+### User flow:
 1. I give the bot a list of recipes in free format
 2. Bot generates a list of all required ingredients
 	1. The list is presented as a checklist with the items that need to be ordered checked
@@ -47,7 +48,7 @@ The MVP will only solve problems 1, 2, 3 and will be constrained to ingredients 
 3. Bot asks which common long-lasting ingredients ran out (e.g. olive oil, cumin, oregano)
 4. I mark the ones that need to be ordered 
 5. Bot confirms and adds all the necessary items to cart in jumbo.cl
-	1. TODO: add logic how to choose the products
+	1. TODO: add logic for choosing the products
 6. **Bonus feature - ingest and save recipes:**
 	1. Once a recipe is inputed the LLM processes the link/text and creates a recipe entity in the database (name, ingredients with their type, instructions, link to recipe(optional))
 ## Metrics

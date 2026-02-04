@@ -21,6 +21,7 @@ And it took almost an entire hour to build the app. Some things never change. ( 
 Speaking of things that never change. ( ఠൠఠ ) I was stuck in the permission jail for almost another hour. The culprit was the battery optimization thing that kept canceling the app's scheduled notifications. After providing unrestricted access, it seems to be working.
 
 ![[slack_screen_2.png|400]]
+
 Hey, my phone got fully charged ٩(◕‿◕)۶
 ### **Total time:** 
 #done in 2 hours 22 minutes

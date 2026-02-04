@@ -1,7 +1,8 @@
 ---
 tags:
   - concept
-  - todo
+  - dead
+  - done
 title: Concept - Paper minis
 ---
 ## High level goals
