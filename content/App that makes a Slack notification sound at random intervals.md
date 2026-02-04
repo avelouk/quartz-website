@@ -27,3 +27,5 @@ Hey, my phone got fully charged ٩(◕‿◕)۶
 ### **Result:** 
 https://github.com/avelouk/app-that-makes-slack-notification-sound
 
+The costume was quite annoying in the best possible way. 
+

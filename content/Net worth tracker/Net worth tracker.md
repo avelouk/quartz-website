@@ -12,7 +12,7 @@ tags:
 Link to template: https://drive.google.com/drive/folders/11s6ldOUVU_5p9bC0zY0W63ShU6Qp66Jp?usp=sharing
 ## Backstory
 
-Here is some [[Net worth tracker - Backstory|Backstory]] for you to enjoy if you want.
+Here is some [[Net worth tracker - Backstory|Backstory]] for you to enjoy if you want. (˵¯͒〰¯͒˵)
 
 **TL;DR**
 - My parents got me some books when I was little
@@ -39,7 +39,7 @@ The biggest lever you can pull in the beginning is your **savings rate** - % of 
 >If you consistently save and invest **20% of your income**, you can retire in **30 years** (starting from 0).
 >If you **invest 10% instead**, you will retire in **41 years** 
 >
->Now take a guess athow long it will take if you **save 50%**? - It's still going to take **15 years**. Here is your mathematical proof that you cannot get rich quickly!
+>Now take a guess athow long it will take if you **save 50%**? - It's still going to take **15 years**. Here is your mathematical proof that you cannot get rich quickly! ( ˇ෴ˇ )
 
 ### Step 0 - Get your bearings
 
@@ -82,7 +82,9 @@ The biggest lever you can pull in the beginning is your **savings rate** - % of 
 - As soon as you get income, do steps 1-3 first, then live your life using the rest of the money
 - Better yet, automate that process once you find a good rhythm and live your life stress free, while building wealth in the background
 
-The [sheet](https://drive.google.com/drive/folders/11s6ldOUVU_5p9bC0zY0W63ShU6Qp66Jp?usp=sharing) will guide you through the setup. Questions? - Comment directly on the sheet.
+The [sheet](https://drive.google.com/drive/folders/11s6ldOUVU_5p9bC0zY0W63ShU6Qp66Jp?usp=sharing) will guide you through the setup. 
+
+Questions? - Comment directly on the sheet. (＾-＾)＿日
 
 Trust the process or do your own research: good reading material is listed below if you want to dive deeper.
 ## Sources
