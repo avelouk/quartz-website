@@ -43,3 +43,6 @@ document.addEventListener("nav", () => {
   const headers = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]")
   headers.forEach((header) => observer.observe(header))
 })
+
+// Run on initial load so the toggle works even if "nav" hasn’t fired yet
+setupToc()

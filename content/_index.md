@@ -7,10 +7,11 @@ Here I build stuff, document the process, and share successes, failures, and lea
 
 ## Ongoing project
 
-> [[Grocery Agent]] - an AI agent that does my groceries for me
+>[[Grocery Agent]] - an AI agent that does my groceries for me. Adding Household Essentials (non-food items), and figuring out how to deploy this for ourselves (or maybe sell it? who knows).
 
-## Latest done project 
+## Latest done projects
 
+>[[Grocery Agent|Grocery agent MVP]] - an AI agent that does my groceries for me
 >[[Net worth tracker]] - Spreadsheet for tracking and growing your wealth
 
 ## What else can you find here?

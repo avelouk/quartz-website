@@ -47,6 +47,12 @@ button#explorer {
   transition: max-height 0.35s ease;
   margin-top: 0.5rem;
 
+  // Don’t use the global ul.overflow scroll — let the left panel scroll instead
+  & ul.overflow {
+    max-height: none;
+    overflow-y: visible;
+  }
+
   &.collapsed > .overflow::after {
     opacity: 0;
   }

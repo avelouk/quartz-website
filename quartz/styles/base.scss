@@ -159,7 +159,16 @@ a {
 
     & .sidebar.left {
       left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+      max-height: calc(100vh - #{$topSpacing});
+      overflow-y: auto;
+      padding-bottom: 2rem;
+      // Children don’t shrink so the explorer (and rest) stay fully visible; only the panel scrolls
+      & > * {
+        flex-shrink: 0;
+      }
       @media all and (max-width: $fullPageWidth) {
+        max-height: none;
+        overflow-y: visible;
         gap: 0;
         align-items: center;
       }
