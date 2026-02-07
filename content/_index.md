@@ -12,6 +12,7 @@ Here I build stuff, document the process, and share successes, failures, and lea
 ## Latest done projects
 
 >[[Grocery Agent|Grocery agent MVP]] - an AI agent that does my groceries for me
+>
 >[[Net worth tracker]] - Spreadsheet for tracking and growing your wealth
 
 ## What else can you find here?
