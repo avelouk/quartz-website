@@ -2,6 +2,85 @@
 
 // put your custom CSS here!
 
+// ---- Subtle page atmosphere ----
+body {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--secondary) 4%, var(--light)) 0%,
+    var(--light) 12%,
+    var(--light) 88%,
+    color-mix(in srgb, var(--tertiary) 3%, var(--light)) 100%
+  );
+  min-height: 100vh;
+}
+
+// ---- Main content column: soft edge ----
+.page .center {
+  padding-left: 1.5rem;
+  border-left: 3px solid color-mix(in srgb, var(--secondary) 25%, transparent);
+  @media (max-width: 1510px) {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+// ---- Article title ----
+.article-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid color-mix(in srgb, var(--tertiary) 40%, transparent);
+  margin-bottom: 0.5rem !important;
+}
+
+// ---- Heading hierarchy ----
+.page article {
+  & > h2 {
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
+    color: var(--dark);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  & > h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--darkgray);
+    font-weight: 600;
+  }
+}
+
+// ---- Tag links: smaller font only ----
+.tags .tag-link {
+  font-size: 0.85rem;
+}
+
+// ---- Footer ----
+.page footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--tertiary) 30%, transparent);
+  & hr {
+    display: none;
+  }
+  & p,
+  & ul {
+    font-size: 0.9rem;
+    color: var(--gray);
+  }
+  & a {
+    color: var(--secondary);
+  }
+}
+
+// ---- Dark mode tweaks for new styles ----
+[saved-theme="dark"] {
+  .page .center {
+    border-left-color: color-mix(in srgb, var(--secondary) 35%, transparent);
+  }
+}
+
+// ---- Links (existing) ----
 a:not(.unstyled) {
   color: var(--secondary);
   position: relative;
