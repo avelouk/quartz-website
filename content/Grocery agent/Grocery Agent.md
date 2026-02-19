@@ -17,6 +17,7 @@ Feeding the concept to Cursor's agent first was a great idea, as it kept the AI 
 ## Status
 
 We are using the MVP!  ٩(◕‿◕)۶
+> **Update after a few weeks:** This is amazing, best idea ever. There are minor things to improve but as it is, it saves a ton of time and energy.
 ### **Current Flow:** 
 Paste recipe (or URL) → LLM parses → save to SQLite database. 
 Pick recipes for the week → checklist (LLM merges duplicates) → confirm → the agent opens a browser and adds items to cart.
