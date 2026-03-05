@@ -20,13 +20,13 @@ Watched the tutorial and another one that came up as recommended and drew. About
 
 The tutorial starts with shapes. Circles, ellipses, rectangles, triangles — just filling a page. Turns out I'm not bad at circles, which is apparently a good sign.
 
-Then I copied a few cats just for fun.
+Then I copied a few cats just for fun. /ᐠ｡ꞈ｡ᐟ\
 
 ![[d1p1.jpg]]
 
 *Source: [[ref-not-today-cat.png|not today cat]]*
 
-### More cats
+### More cats (ﾐⓛᆽⓛﾐ)✧
 
 Tried two more. One chubby kitten - shapes becoming cat, one detailed sitting kitten. 
 
@@ -42,7 +42,7 @@ Tried two more. One chubby kitten - shapes becoming cat, one detailed sitting ki
 
 ### Teapot from real life
 
-The teapot was right in front of me. I tried drawing it as is - it sucked. Remembered the tutorial and tried breaking it down into shapes, you can see the attempts on the right side of the page. Still bad.
+The teapot was right in front of me. I tried drawing it as is - it sucked. ( ˇ෴ˇ ) Remembered the tutorial and tried breaking it down into shapes, you can see the attempts on the right side of the page. Still bad. (ಥ﹏ಥ)
 
 ### Duck
 
@@ -52,4 +52,4 @@ Once I had the shapes on paper, drawing an actual duck underneath took maybe 5 s
 
 ![[d1p3.jpg]]
 
-I have an original duck!
+I have an original duck! ٩(◕‿◕)۶
