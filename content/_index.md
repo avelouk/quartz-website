@@ -8,6 +8,8 @@ Here I build stuff, document the process, and share successes, failures, and lea
 ## Ongoing project
 
 >[[Grocery Agent]] - an AI agent that does my groceries for me. Adding Household Essentials (non-food items), and figuring out how to deploy this for ourselves (or maybe sell it? who knows).
+>
+>[[Drawing day 1]] - learning to draw. Pen only, no eraser. Aiming for 50 hours in 2026.
 
 ## Latest done projects
 

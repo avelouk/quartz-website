@@ -36,7 +36,7 @@ Category-specific stats are stored per note — pace and distance for running, v
 A stacked year-per-year heatmap calendar (via Heatmap Calendar plugin), and a last-month log grouped by date showing the key stats per session.
 ## Result
 
-There is a demo vault in the repository for you to see how what it looks like.
+There is a demo vault in the repository for you to see what it looks like.
 
 https://github.com/avelouk/garmin-sync-obsidian
 
