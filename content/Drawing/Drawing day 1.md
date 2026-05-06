@@ -4,7 +4,7 @@ tags:
   - project
   - ongoing
 ---
-I decided to learn to draw. The goal is 50 hours in 2026. No pressure, just pen, paper, and a heatmap calendar to keep me honest.
+ I decided to learn to draw. The goal is 50 hours in 2026. No pressure, just pen, paper, and a heatmap calendar to keep me honest.
 
 Starting from near zero. I have a pen, a sketchbook, and [this tutorial](https://youtu.be/-UBbFNeY38k).
 

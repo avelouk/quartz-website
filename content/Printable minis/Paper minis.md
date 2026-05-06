@@ -70,6 +70,7 @@ Portrait orientation on a solid white background
 Here is the result:
 
 ![[Gemini_Generated_Image_bdpmlabdpmlabdpm.png|300]]
+
 Pro tip - you can change poses for the same character with a simple prompt:
 ```
 make another one with a fighting pose

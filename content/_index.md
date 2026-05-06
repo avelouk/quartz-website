@@ -13,6 +13,9 @@ Here I build stuff, document the process, and share successes, failures, and lea
 
 ## Latest done projects
 
+>[[isaac-mini-game|Something of Isaac]] - a Wordle style daily minigame based on the Binding of Isaac. One of my favorite games.
+>**Play it:** [avelouk.com/something-of-isaac](https://avelouk.com/something-of-isaac/)
+>
 >[[Grocery Agent|Grocery agent MVP]] - an AI agent that does my groceries for me
 >
 >[[Garmin sync Obsidian]] - syncs Garmin workouts to Obsidian with a colour-coded heatmap calendar
