@@ -1,3 +1,7 @@
+---
+draft: "true"
+---
+
 ### [Obsidian](https://obsidian.md/) 
 For personal knowledge management and more
 

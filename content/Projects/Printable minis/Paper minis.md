@@ -30,7 +30,7 @@ Let's see if this has the potential to become a small business.
 ## The [[Concept - Paper minis|Concept]]
 The next step is to try and turn this idea into a product and scrutinize the idea to really see if it has potential to bring value to people. Here is where my product management skill will come in handy. 
 
-Here are the [[What to do with product ideas|usual steps]] I use to turn an idea into a [[Product concept|concept]]. When you go through these steps most ideas will start cracking and will fail to become [[Viable ideas|viable]] concepts.
+Here are the [[What to do with ideas|usual steps]] I use to turn an idea into a [[Product concept|concept]]. When you go through these steps most ideas will start cracking and will fail to become [[Viable ideas|viable]] concepts.
 
 TL;DR
 1. **High-Level Goal:** Define your business's main objective.

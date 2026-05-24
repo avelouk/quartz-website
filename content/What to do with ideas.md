@@ -1,3 +1,5 @@
+I think ideas are cheap. The important part is using good judgment about which ideas are worth pursuing and actually building them.
+
 It's simple. Answer these questions in this order and a good idea will turn into an actionable, flashed out plan or you will realize that it sucks half way through, in which case you try something else. 
 
 ### ***What is the result you can expect and wish to have?***
