@@ -97,6 +97,13 @@ document.addEventListener("nav", async () => {
   const target = document.querySelector(".avelouk-topo") as HTMLElement | null
   if (!target) return
 
+  // Force Inter @900 to load (the rasterizer's reference face). Without
+  // this the call to ctx.measureText/fillText may run before the @font-face
+  // is actually available, falling back to system-ui and producing a fuzzy
+  // letterform that doesn't match Inter's geometry.
+  try {
+    await (document as any).fonts?.load(`900 100px "Inter"`)
+  } catch (_) {}
   await (document as any).fonts?.ready
 
   state.heightMap = await buildHeightMap("AVELOUK", COLS, ROWS)

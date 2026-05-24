@@ -41,4 +41,4 @@ I would say this retention curve is not bad at all. While there is no viral grow
 
 ## Credits
 
-Fan project, not affiliated with Edmund McMillen, Nicalis, or the official Binding of Isaac team. Item data from [Platinum God](https://platinumgod.co.uk/repentance), IDs and seed helpers from [Isaaconnect](https://github.com/AlexisL61/Isaaconnect) (GPLv3).
+Fan project, not affiliated with Edmund McMillen, Nicalis, or the official Binding of Isaac team. Item data from [Platinum God](https://platinumgod.co.uk/repentance), IDs and seed helpers from [Isaaconnect](https://github.com/Demorck/Isaaconnect) (GPLv3).

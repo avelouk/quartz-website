@@ -8,7 +8,10 @@ Here I build stuff, document the process, and share successes, failures, and lea
 ## Ongoing project
 
 >[[isaac-mini-game|Something of Isaac]] - a Wordle style daily minigame based on the Binding of Isaac. One of my favorite games.
+>
 >**Play it:** [avelouk.com/something-of-isaac](https://avelouk.com/something-of-isaac/)
+
+
 >
 >[[Grocery Agent]] - an AI agent that does my groceries for me. Adding Household Essentials (non-food items), and figuring out how to deploy this for ourselves (or maybe sell it? who knows).
 
@@ -22,8 +25,7 @@ Here I build stuff, document the process, and share successes, failures, and lea
 
 ## What else can you find here?
 - [[Project archive]] 
-- [[Greatest free tech]] that I use in work and life
 - [My resume](assets/Karen_Galstyan_resume.pdf)
 
 ## Find me on
-| [Linkedin](https://www.linkedin.com/in/karengalstyan/) | [GitHub](https://github.com/avelouk) | 
+[Linkedin](https://www.linkedin.com/in/karengalstyan/) · [GitHub](https://github.com/avelouk) 

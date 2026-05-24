@@ -21,6 +21,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Header from "./Header"
 import HeaderImage from "./HeaderImage"
+import MobileNav from "./MobileNav"
 
 export {
   ArticleTitle,
@@ -45,5 +46,6 @@ export {
   NotFound,
   Breadcrumbs,
   Header,
-  HeaderImage
+  HeaderImage,
+  MobileNav
 }

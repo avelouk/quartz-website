@@ -1,6 +1,8 @@
-$pageWidth: 750px;
+$pageWidth: 740px;
 $mobileBreakpoint: 600px;
 $tabletBreakpoint: 1200px;
-$sidePanelWidth: 380px;
+$sidePanelWidth: 500px;
+// Below this viewport width the sidebar collapses into a hamburger drawer.
+$hamburgerBreakpoint: 1240px;
 $topSpacing: 2rem;
 $fullPageWidth: $pageWidth + 2 * $sidePanelWidth;

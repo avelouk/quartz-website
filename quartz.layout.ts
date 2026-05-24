@@ -5,9 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    // Component.HeaderImage(),
-    // Component.Search(),
-    // Component.Darkmode()
+    Component.MobileNav(),
   ],
   footer: Component.Footer({
     links: {
@@ -20,10 +18,10 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    Component.Breadcrumbs({ spacerSymbol: "/" }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.TagList(),
+    Component.ContentMeta(),
   ],
   afterBody: [
     Component.Backlinks(),
@@ -32,13 +30,11 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.HeaderImage(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.Explorer({
+    Component.TableOfContents(),
+    Component.Explorer({
       filterFn: (f) => !f.name.startsWith("_Excalidraw"),
-    })),
+    }),
   ],
   right: [
     // Component.Graph(),
@@ -49,16 +45,14 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.Breadcrumbs({ spacerSymbol: "/" }), Component.ArticleTitle(), Component.ContentMeta()],
   afterBody: [],
   left: [
     Component.HeaderImage(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({
+    Component.Explorer({
       filterFn: (f) => !f.name.startsWith("_Excalidraw"),
-    })),
+    }),
   ],
   right: [],
 }
