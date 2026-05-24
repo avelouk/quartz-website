@@ -1,6 +1,20 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Fonts (Inter for headers + body, IBM Plex Mono for code) are auto-loaded
+// by Quartz from quartz.config.ts → theme.typography.
+
+// ---- Sidebar: reduce horizontal padding so components have room ----
+// Quartz default is 4rem each side, which leaves ~252px usable in a 380px sidebar.
+// Cutting to 1.5rem each side gives ~332px.
+body #quartz-body .sidebar {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+// ---- Let Search fill the sidebar (Quartz caps it at 14rem) ----
+body .sidebar.left .search {
+  max-width: none;
+}
 
 // ---- Subtle page atmosphere ----
 body {
@@ -131,54 +145,83 @@ summary:focus-visible {
   outline-offset: 2px;
 }
 
-@font-face {
-    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
-      format("woff2");
-    font-family: "Meta";
-    font-style: normal;
-    font-weight: normal;
-  }
-  
-  [saved-theme="dark"] {
-    main.neon-title {
-      text-decoration: none;
-      transition: all 0.5s;
-      -webkit-text-stroke: 2px #fefcf1;
-      font-variation-settings: "wght" 900, "ital" 1;
-      font-size: 4rem;
-      text-align: center;
-      color: transparent;
-      font-family: "Meta", sans-serif;
-      text-shadow: 4px 4px 0px #07bccc,
-        7px 7px 0px #e601c0,
-        10px 10px 0px #e9019a,
-        13px 13px 0px #f40468,
-        20px 20px 4px #482896;
-      cursor: pointer;
-  
-      &:hover {
-          font-variation-settings: "wght" 100, "ital" 0;
-          text-shadow: none;
-      }
-    }
-  } 
-  
-  [saved-theme="light"] {
-    main.neon-title {
-      font-size: 4rem;
-      transition: all 0.5s;
-      -webkit-text-stroke: 2px var(--secondary);
-      color: transparent;
-      font-variation-settings: "wght" 900, "ital" 1;
-      position: relative;
-      text-align: center;
-      text-decoration: none;
-      font-family: "Meta", sans-serif;
-      cursor: pointer;
+// ---- Wordmark: live ASCII topographic AVELOUK ----
+.header-wordmark {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  container-type: inline-size;
 
-      &:hover {
-        font-variation-settings: "wght" 100, "ital" 0;
-        text-shadow: none;
-      }
+  .avelouk-topo {
+    // Reset Quartz's global <pre> styling (border, radius, padding, etc.)
+    border: none;
+    border-radius: 0;
+    background: none;
+    overflow-x: hidden;
+
+    margin: 0;
+    padding: 0;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    line-height: 1;
+    letter-spacing: 0;
+    white-space: pre;
+    user-select: none;
+    cursor: crosshair;
+    color: var(--secondary);
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    // 50 cols × ~0.6em per char → ~30em of content. Divide 100cqi by ~32 for safe margin.
+    font-size: 0.55rem;
+    font-size: clamp(0.38rem, calc(100cqi / 32), 0.7rem);
+    mask-image: linear-gradient(180deg, transparent 0%, black 18%, black 82%, transparent 100%);
+    -webkit-mask-image: linear-gradient(180deg, transparent 0%, black 18%, black 82%, transparent 100%);
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+
+  .wordmark-labels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    margin-top: 0.3rem;
+
+    .brand {
+      font-family: var(--headerFont);
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 0.05em;
+      color: var(--dark);
+      line-height: 1;
     }
-  } 
+
+    .real-name {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+  }
+
+  // Light mode: keep the brand-blue color, add a subtle glow on hover.
+  &:hover .avelouk-topo {
+    text-shadow: 0 0 4px color-mix(in srgb, var(--secondary) 30%, transparent);
+  }
+}
+
+[saved-theme="dark"] .header-wordmark {
+  .avelouk-topo {
+    color: var(--secondary);
+  }
+  &:hover .avelouk-topo {
+    text-shadow:
+      0 0 8px color-mix(in srgb, var(--secondary) 60%, transparent),
+      0 0 18px color-mix(in srgb, var(--secondary) 30%, transparent);
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: Website of Karen Galstyan
 ---
-Hello and welcome to my corner of the internet! I am a Software Engineer who decided to become a Product Manager for some reason. I love technology, and I believe that great tech should feel like magic. My goal is to use tech to its full potential and have it bring convenience and delight to our daily lives.
+Hi, I'm **Karen Galstyan** — I build and publish here under the handle **Avelouk**. I'm a Software Engineer who decided to become a Product Manager for some reason. I love technology, and I believe that great tech should feel like magic. My goal is to use tech to its full potential and have it bring convenience and delight to our daily lives.
 
 Here I build stuff, document the process, and share successes, failures, and learnings. 
 
