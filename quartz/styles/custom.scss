@@ -157,12 +157,14 @@ body .sidebar.left .search { max-width: none; }
     z-index: 150;
     left: calc(-1 * min(360px, 88vw)) !important;
     transition: left 0.25s ease;
-    box-shadow: 4px 0 28px rgba(0, 0, 0, 0.18);
     padding: 4rem 1.5rem 2rem !important;
   }
 
+  // Shadow only while open — when parked off-screen it would bleed
+  // into the left edge of the page and over the footer text.
   body.mobile-nav-open #quartz-body .sidebar.left {
     left: 0 !important;
+    box-shadow: 4px 0 28px rgba(0, 0, 0, 0.18);
   }
 
   // Backdrop dim
@@ -383,9 +385,15 @@ blockquote {
 // ───────────────────────────────────────────────────────────
 // Footer
 // ───────────────────────────────────────────────────────────
+// The footer lives outside #quartz-body, so match its 1400px rail and
+// center the text instead of letting it hug the viewport's left edge.
 .page footer {
-  margin-top: 4rem;
-  padding-top: 1.5rem;
+  width: auto;
+  max-width: 1400px;
+  margin: 4rem auto 0;
+  padding: 1.5rem 1.5rem 2.5rem;
+  box-sizing: border-box;
+  text-align: center;
   border-top: 1px solid var(--lightgray);
   font-family: var(--codeFont);
   font-size: 0.72rem;
@@ -393,7 +401,12 @@ blockquote {
   text-transform: uppercase;
   color: var(--gray);
   & hr { display: none; }
+  & p { margin: 0; }
   & a { color: var(--secondary); }
+  & ul {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
 }
 
 // Inherit weight from the surrounding text — Quartz's base.scss
