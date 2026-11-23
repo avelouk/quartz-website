@@ -5,6 +5,7 @@
 
 ### Done
 
+- [[Kindle dashboard]]
 - [[isaac-mini-game|Something of Isaac]]
 - [[Net worth tracker]]
 - [[Garmin sync Obsidian]]

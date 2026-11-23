@@ -11,6 +11,8 @@ Here I build stuff, document the process, and share successes, failures, and lea
 
 ## Latest done projects
 
+>[[Kindle dashboard]] - an old Kindle turned into an always-on living-room screen: clock, weather, calendars, and a button that starts the robot vacuum
+>
 >[[isaac-mini-game|Something of Isaac]] - a Wordle style daily minigame based on the Binding of Isaac. One of my favorite games. **Play it:** [somethingofisaac.com](https://somethingofisaac.com/)
 >
 >[[Grocery Agent|Grocery agent MVP]] - an AI agent that does my groceries for me
